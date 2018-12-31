@@ -1,0 +1,5 @@
+{
+    "music.SenbonZakura": { "category": "record", "sounds":[{"name": "record/SenbonZakura", "stream": true}] } ,
+    "music.DejaVu": { "category": "record", "sounds":[{"name": "record/DejaVu", "stream": true}] } ,
+    "music.BadApple": { "category": "record", "sounds":[{"name": "record/BadApple", "stream": true}] }
+}

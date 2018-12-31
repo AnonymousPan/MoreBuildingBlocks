@@ -1,0 +1,23 @@
+tile.blockCreeper.name=Creeper Block
+tile.blockSmallStoneBrick.name=Small Stone Brick
+tile.blockLightingStoneBrick.name=Lighting Stone Brick
+tile.blockLightingSmallStoneBrick.name=Lighting Small Stone Brick
+
+tile.blockBiliTV.blue.name=BiliBili's Television (Blue)
+tile.blockBiliTV.pink.name=BiliBili's Television (Pink)
+tile.blockFacingTest.name=Block Facing Test Block
+tile.blockNyancatTail.name=Nyan Cat's Tail
+tile.blockBall.name=Ball
+
+item.itemIronStick.name=Iron Stick
+item.itemBlockBiliTV.name=BiliBili's Television (Blue)
+item.itemBlockBiliTVPink.name=BiliBili's Television (Pink)
+
+item.itemRecordSenbonZakura.name=CreazyJavaDrinker's Selected Music Record
+item.record.morebuildingblocks:SenbonZakura.desc=千本桜 -- 黒うさP/初音ミク
+
+itemGroup.mbbTabMain=More Building Blocks
+itemGroup.mbbTabMusic=More Building Blocks - Music
+itemGroup.mbbTabTools=More Building Blocks - Tools
+itemGroup.mbbTabBalls=More Building Blocks - Balls
+itemGroup.mbbTabMaterials=More Building Blocks - Materials

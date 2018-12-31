@@ -1,0 +1,16 @@
+[
+{
+  "modid": "morebuildingblocks",
+  "name": "More Building Blocks",
+  "description": "Added some new blocks for building.",
+  "version": "V1.0",
+  "mcversion": "MC1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["喝杯82年的Java压压惊"],
+  "credits": "喝杯82年的Java压压惊",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
