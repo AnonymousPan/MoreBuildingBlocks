@@ -14,6 +14,10 @@ item.itemBlockBiliTVPink.name=哔哩哔哩小电视(少女粉)
 
 item.itemRecordSenbonZakura.name=喝杯82年的Java压压惊的精选音乐唱片
 item.record.morebuildingblocks:SenbonZakura.desc=千本桜 -- 黒うさP/初音ミク
+item.itemRecordDejavu.name=喝杯82年的Java压压惊的精选音乐唱片
+item.record.morebuildingblocks:DejaVu.desc=Deja Vu -- Dave Rodgers
+item.itemRecordBadApple.name=喝杯82年的Java压压惊的精选音乐唱片
+item.record.morebuildingblocks:BadApple.desc=Bad Apple!! -- Alstroemeria Records
 
 itemGroup.mbbTabMain=更多建筑方块
 itemGroup.mbbTabMusic=更多建筑方块 - 音乐

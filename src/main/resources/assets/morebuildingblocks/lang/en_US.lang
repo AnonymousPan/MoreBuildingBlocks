@@ -15,6 +15,10 @@ item.itemBlockBiliTVPink.name=BiliBili's Television (Pink)
 
 item.itemRecordSenbonZakura.name=CreazyJavaDrinker's Selected Music Record
 item.record.morebuildingblocks:SenbonZakura.desc=千本桜 -- 黒うさP/初音ミク
+item.itemRecordDejavu.name=CreazyJavaDrinker's Selected Music Record
+item.record.morebuildingblocks:DejaVu.desc=Deja Vu -- Dave Rodgers
+item.itemRecordBadApple.name=CreazyJavaDrinker's Selected Music Record
+item.record.morebuildingblocks:BadApple.desc=Bad Apple!! -- Alstroemeria Records
 
 itemGroup.mbbTabMain=More Building Blocks
 itemGroup.mbbTabMusic=More Building Blocks - Music
