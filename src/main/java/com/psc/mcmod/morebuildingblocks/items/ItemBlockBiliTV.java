@@ -121,9 +121,4 @@ public class ItemBlockBiliTV extends Item{
 		GameRegistry.registerItem(item, itemID);
 		return item;
 	}
-	
-	private void playPlaceSound(int x, int y, int z)
-	{
-		
-	}
 }

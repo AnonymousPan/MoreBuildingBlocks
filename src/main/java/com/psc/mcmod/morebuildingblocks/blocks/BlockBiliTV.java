@@ -44,7 +44,6 @@ public class BlockBiliTV extends Block {
 
     @Override
     public int getRenderType() {
-    	//System.out.println("getRenderType has been called.");
         return RenderBlockBiliTV.model;
     }
 
@@ -98,7 +97,6 @@ public class BlockBiliTV extends Block {
     @Override
     public void onBlockPlacedBy(World world, int x, int y, int z, EntityLivingBase placer, ItemStack stack) 
     {
-    	//System.out.println("YAW=" + String.valueOf(placer.rotationYaw + " PITCH=" + String.valueOf(placer.rotationPitch)));
     	float yaw = Math.abs(placer.rotationYaw);
     	yaw %= 360F;
     	int metadata = 0;
@@ -126,7 +124,6 @@ public class BlockBiliTV extends Block {
     	
     	Block b = world.getBlock(x, y, z);
     	world.setBlock(x, y, z, b, metadata, 2 | 4);
-    	//System.out.println(String.valueOf(stack.getItemDamage())); 	
     }
 
     @Override
@@ -208,16 +205,8 @@ public class BlockBiliTV extends Block {
     	this.iconPSide = p_149651_1_.registerIcon("morebuildingblocks:blockBiliTV_pink_side");
     }
     
-public static final String blockID = "blockBiliTV";
-/*
-	@Override
-	public int onBlockPlaced(World world, int x, int y, int z, int a, float b, float c, float d, int e)
-	{
-		System.out.println("x/y/z=" + String.valueOf(x) +"/" + String.valueOf(y) + "/" + String.valueOf(z));
-		System.out.println("a=" + String.valueOf(a) +" b=" + String.valueOf(b) + " c=" + String.valueOf(c)+ " d=" + String.valueOf(d)+ " e=" + String.valueOf(e));
-		return 0;
-	}
-	*/
+    public static final String blockID = "blockBiliTV";
+
 	
 	public static BlockBiliTV block = new BlockBiliTV(Material.rock);
 	

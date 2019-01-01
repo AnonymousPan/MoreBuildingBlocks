@@ -47,7 +47,6 @@ public class BlockBall extends Block {
 
     @Override
     public int getRenderType() {
-    	//System.out.println("getRenderType has been called.");
         return RenderBlockBall.id;
     }
 
@@ -116,16 +115,8 @@ public class BlockBall extends Block {
     	world.setBlock(x, y, z, BlocksInstance.blockBall, stack.getItemDamage(), 3);
     }
     
-public static final String blockID = "blockBall";
-/*
-	@Override
-	public int onBlockPlaced(World world, int x, int y, int z, int a, float b, float c, float d, int e)
-	{
-		System.out.println("x/y/z=" + String.valueOf(x) +"/" + String.valueOf(y) + "/" + String.valueOf(z));
-		System.out.println("a=" + String.valueOf(a) +" b=" + String.valueOf(b) + " c=" + String.valueOf(c)+ " d=" + String.valueOf(d)+ " e=" + String.valueOf(e));
-		return 0;
-	}
-	*/
+    public static final String blockID = "blockBall";
+
 	
 	public static BlockBall block = new BlockBall(Material.rock);
 	
