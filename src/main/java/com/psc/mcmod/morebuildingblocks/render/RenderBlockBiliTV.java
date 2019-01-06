@@ -98,13 +98,11 @@ public class RenderBlockBiliTV implements ISimpleBlockRenderingHandler {
 
     public static void renderStandardInvBlock (RenderBlocks renderblocks, Block block, int meta)
     {
-        //System.out.println("RENDERING BLOCK_BILI_TV");
         Tessellator tessellator = Tessellator.instance;
         GL11.glTranslatef(-0.5F, -0.5F, -0.5F);
         tessellator.startDrawingQuads();
         tessellator.setNormal(0.0F, -1F, 0.0F);
         renderblocks.renderFaceYNeg(block, 0.0D, 0.0D, 0.0D, block.getIcon(0, meta));
-        //System.out.println(block.getUnlocalizedName());
         tessellator.draw();
         tessellator.startDrawingQuads();
         tessellator.setNormal(0.0F, 1.0F, 0.0F);
